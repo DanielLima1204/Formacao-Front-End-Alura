@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 header{
   background: #bbbbbb;
   padding: 20px 0;
@@ -25,6 +26,7 @@ nav a { /* Transformando os itens da lista */
   font-weight: bold;
   font-size: 22px;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 nav a:hover{
   font-size: 29px;
@@ -32,7 +34,7 @@ nav a:hover{
 
 nav a:hover{ /* Lê comportamento do usuario na tag nav e a hover = passar o mouse*/
   color: #c78c19;
-  text-decoration: underline;
+  
 }
 
 main{
@@ -63,6 +65,13 @@ form label, form legend{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.horarios{
+  margin-top: 15px;
+  padding: 5px;
+  width: 75px;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px #555555; 
+}
 .enviar{
   width: 40%;
   padding: 15px 0;
@@ -82,6 +91,7 @@ form label, form legend{
 }
 table{
   margin: 20px 0 40px;
+  
 }
 thead{
   background: #555555;
@@ -94,6 +104,9 @@ thead th{
 }
 tbody tr td{
   border: 1px solid #000000;
+}
+tbody td{
+  padding: 10px;
 }
 .rodapé{
   padding: 30px 0;

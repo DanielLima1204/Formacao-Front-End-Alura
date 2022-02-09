@@ -1,0 +1,30 @@
+No CSS podemos usar Seletores Avançados para ter uma melhor especificação das tags desejadas:
+
+* Selecionar um filho direto de uma tag:
+main > p {
+  background: red;
+}
+usando o sinal ">" para a tag pai podemos selecionar um filho direto da mesma. 
+
+* Selecionar um primeiro irmão que vem depois de um elemento:
+img + p {
+  background: blue;
+}
+usando o sinal de "+" selecionamos um primeiro irmão após um elemento.
+
+* Para selecionar todas as tags após um elemento irmão:
+img ~ p { ex: Todos os parâgrafos
+  background: yellow;
+}
+
+img ~ h3{ ex: Todos os titulos de nivel 3
+  font-weight: bold;
+}
+usando o sinal de "~" selecionamos todos os elementos especificados após a tag desejada
+
+É importante lembrar que um seletor pode sobrescrever o outro, pois todos possuem a mesma força. Os seletores avançados nos ajudam a criar estilos mais complexos e utilizar o CSS de uma maneira incrível, com uma autonomia maior do HTML.
+
+* Também é possivel excluir itens específicos
+.principal p:not(#missão){ - usando o id="missao" a excluimos da aplicação do background
+  background: grey;
+}
