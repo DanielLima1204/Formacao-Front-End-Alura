@@ -60,9 +60,12 @@ nav a:hover{ /* Lê comportamento do usuario na tag nav e a hover = passar o mou
 }
 .produtos li:hover{
   border-color: #c78c19;
+  transform: scale(1);
+  
 }
 .produtos li:active{ /* Active pressionar o botão */
   border-color: #088c19;
+  transform: scale(0.95);
 }
 .produtos li:hover h2{
   font-size: 35px;
