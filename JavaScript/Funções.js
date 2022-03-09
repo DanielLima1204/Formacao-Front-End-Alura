@@ -5,8 +5,8 @@
 //   anunciar: function() { // Função que exibe atributo do objeto
 //     console.log("A Alura indica o livro " + this.nome + "!");
 //   },
-//   mudarNome: function(newNome) { // Função que Modificam atributos do objeto
-//     this.nome = newNome;
+//   mudarNome: function(newName) { // Função que Modificam atributos do objeto
+//     this.nome = newName;
 //   }
 // }
 // Livro.anunciar();
@@ -35,5 +35,5 @@ console.log(`Editora: ${cleanCode.getEditora()}.`);
 console.log(`Paginas: ${cleanCode.getPaginas()}.`);
 console.log(typeof(Livro));
 
-const temp = new String(nome) // O que o JS faz qnd declaramos um String
+const temp = new String("Nome") // O que o JS faz qnd declaramos um String
 console.log(temp.toString());
