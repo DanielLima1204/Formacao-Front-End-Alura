@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2? family= Pacifico & display=swap');
+.pessoa__nome {
+  color: #8D0606;
+  font-family: 'Pacifico', cursiva;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 1rem 0;
+  text-align: center;
+}
