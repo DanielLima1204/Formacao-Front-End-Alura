@@ -1,0 +1,9 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course {
+  width: 31.3%;
+  margin: 1%;
+}
