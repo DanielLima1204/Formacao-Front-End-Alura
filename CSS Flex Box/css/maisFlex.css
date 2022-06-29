@@ -1,0 +1,7 @@
+.flexContainer {
+  display: flex;
+
+}
+.flexItem {
+    background-color: red;
+}
