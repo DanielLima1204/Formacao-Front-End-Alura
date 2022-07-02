@@ -1,0 +1,27 @@
+.app {
+    background: #f1f1f1; /* O grid deve ser inserido no elemento pai */
+    display: grid;  
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+    "cabecalho"
+    "conteudo"
+    "rodape";
+    grid-template-columns: auto;
+    grid-auto-rows: 50px auto auto;
+}
+
+
+.cabecalho {
+    
+    grid-area: cabecalho;
+}
+ 
+.conteudo {
+    
+    grid-area: conteudo;
+}
+
+.rodape {
+  
+    grid-area: rodape;
+}
