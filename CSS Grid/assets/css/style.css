@@ -6,8 +6,8 @@
     "cabecalho"
     "conteudo"
     "rodape";
-    grid-template-columns: auto;
-    grid-auto-rows: 50px auto auto;
+    grid-template-columns: auto; /* 1 coluna no automático */
+    grid-auto-rows: 50px auto auto; /* 3 linhas  */
 }
 
 
