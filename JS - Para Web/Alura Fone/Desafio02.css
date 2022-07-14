@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+/*   margin: 0;
+  padding: 0; */
 }
 
 body {
@@ -7,6 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   background-color: #191919;
   min-height: 100vh;
 }
@@ -29,8 +32,10 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px; 
+
   background-color: #cccccc;
   border-radius: 30px;
+
   padding: 10px;
 }
 
@@ -52,4 +57,8 @@ input[type=tel] {
   padding: 10px;
   text-align: center;
   width: 280px;
+}
+
+.ativa {
+  background-color: yellow;
 }
